@@ -1,0 +1,90 @@
+.a{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    margin:20px auto;
+    width:900px;
+    height:395px;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    padding:20px;
+    border:solid 5px #eee;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+div .un{
+    Display :Flex;
+Justify-content :center ;
+Align-items: center ;
+    background-color: aqua;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+div .deux{
+    Display :Flex;
+    Justify-content :center ;
+    Align-items: center ;
+    background-color: rgb(231, 169, 53);
+    grid-column: span 5;
+    grid-row: span 1;
+}
+div .quatre{
+    Display :Flex;
+    Justify-content :center ;
+    Align-items: center ;
+    background-color: rgb(233, 187, 101);
+    grid-column: span 2;
+    grid-column-start: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 11;
+    grid-row-start: 1;
+}
+div .trois{
+    Display :Flex;
+Justify-content :center ;
+Align-items: center ;
+    background-color: rgb(55, 209, 55);
+    grid-column: span 5;
+    grid-row: span 1;
+}
+
+div .cinq{
+    Display :Flex;
+Justify-content :center ;
+Align-items: center ;
+    background-color: rgb(59, 152, 196);
+    grid-column: span 4;
+    grid-row: span 1;
+}
+div .six{
+    Display :Flex;
+    Justify-content :center ;
+    Align-items: center ;
+    background-color: rgb(190, 100, 190);
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row: span 1;
+}
+div .sept{
+    Display :Flex;
+    Justify-content :center ;
+    Align-items: center ;
+    background-color: rgb(11, 11, 92);
+  grid-column: span 6;
+    grid-row: span 1;
+}
+div .huit{
+    Display :Flex;
+    Justify-content :center ;
+    Align-items: center ;
+    background-color: red;
+  grid-column-start: 7;
+  grid-column-end: 11;
+    grid-row-start:3;
+    grid-row-end:5;
+}
